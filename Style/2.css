@@ -1,0 +1,92 @@
+body {
+  background-color: #d6d8de;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.tarjeta {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding-top: 60px;
+  margin: 0 10px;
+}
+
+.bienvenida {
+  margin: 20px 0;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.resumen {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.resumen div {
+  width: 25%;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.ventas,
+.compras,
+.clientes,
+.crecimiento {
+  background-color: #fcfcfc;
+}
+
+.estadisticas {
+  margin: 20px 0;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.estadisticas .porcentajes {
+  display: flex;
+  gap: 20px;
+  height: 60%;
+}
+
+.estadisticas .descargas {
+  height: 40%;
+}
+
+#derecha-estadisticas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.informacion {
+  margin: 20px 0;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.informacion .tickets {
+  width: 70%;
+  background-color: rgb(252, 252, 252);
+}
+
+.informacion .actualizaciones {
+  width: 30%;
+  background-color: rgb(253, 253, 253);
+}

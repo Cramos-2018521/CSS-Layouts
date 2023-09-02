@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #201f1f;
+  height: calc(100vh - 60px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  padding: 30px 20px;
+  gap: 40px;
+}
+
+.tarjeta {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.seccion1,
+.seccion2 .tarjeta,
+.seccion3 .tarjeta,
+.seccion4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
